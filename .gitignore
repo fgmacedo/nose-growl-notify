@@ -1,0 +1,4 @@
+*.pyc
+build
+dist
+NoseGrowlNotify.egg-info
