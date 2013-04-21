@@ -39,7 +39,10 @@ class NoseGrowlNotify (Plugin):
         else:
             for idx, info in enumerate(self.failed_tests):
                 test, err = info
-                notify("dialog-error", test.id(), err[1].message)
+                if hasattr(err[1], 'message'):
+                    notify("dialog-error", test.id(), err[1].message)
+                else:
+                    notify("dialog-error", test.id(), err[1])
                 if idx == self.NOTIFICATION_LIMIT:
                     notify("dialog-error", "Multiple tests failed")
                     break

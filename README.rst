@@ -1,7 +1,7 @@
 
-NoseGrowlNotify is a `Nose`_ plugin that expose Nose tests results notifications on Windows over `Growl`_.
+NoseGrowlNotify is a `Nose`_ plugin that expose Nose tests results notifications over `Growl`_.
 
-Growl is a project that enables beautiful desktop notifications on Windows like 'notify-send' on others systems.
+Growl is a project that enables beautiful desktop notifications on Windows, Linux and Mac.
 
 This project is similar and inspired by `nose-gnome-notify`_.
 
