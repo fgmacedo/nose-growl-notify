@@ -15,6 +15,11 @@ Install from source::
     $> python setup.py install
 
 
+Install from pip::
+
+    $> pip install nosegrowlnotify
+
+
 Basic usage
 ===========
 
